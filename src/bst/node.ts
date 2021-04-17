@@ -1,4 +1,3 @@
-export interface Node {
-  left: Node;
-  right: Node;
+export class Node<T> {
+  constructor(public left: T, public right: T) {}
 }
